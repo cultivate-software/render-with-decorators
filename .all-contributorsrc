@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "jeromeweiss",
+      "name": "jeromeweiss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59569084?v=4",
+      "profile": "https://github.com/jeromeweiss",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "render-with-decorators",
+  "projectOwner": "cultivate-software"
+}
