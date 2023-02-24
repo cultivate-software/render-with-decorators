@@ -32,6 +32,16 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/31188606?v=4",
       "profile": "https://github.com/mauricereichelt",
       "contributions": []
+    },
+    {
+      "login": "doc",
+      "name": "Mark",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40158?v=4",
+      "profile": "https://github.com/doc",
+      "contributions": [
+        "doc"
+      ]
     }
-  ]
+  ],
+  "commitConvention": "angular"
 }
