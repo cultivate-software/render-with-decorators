@@ -7,7 +7,7 @@ const withList = () => node => <ul>{node}</ul>
 describe('render', () => {
   it('renders component without decorators', () => {
     render(<li>Item</li>)
-    expect(screen.getByRole('listitem')).toBeInTheDocument()
+    expect(screen.getByRole('listitem')).toHaveTextContent('Item')
   })
 
   it('renders decorator around component', () => {
