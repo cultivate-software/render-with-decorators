@@ -82,7 +82,7 @@ export * from '@render-with/redux'        // makes decorators like withState(..)
 And finally, use the decorators in your tests:
 
 ```jsx
-import { render, withState, withLocation } from './test-utils'
+import { render, withStore, withLocation, withTheme } from './test-utils'
 
 it('shows home page when logged in already', async () => {
   render(<LoginForm />, withStore({ user: 'john.doe' }), withLocation('/login'), withTheme())
@@ -94,15 +94,16 @@ _Note: With `configureRender` it is possible to create a custom `render` functio
 
 ## The problem
 
-Rendering React components in tests often require wrapping them in all kinds of providers. Some apps require dozens of providers to function correctly. For instance:
+Rendering React components in tests often requires wrapping them in all kinds of providers. Some apps require dozens of providers to function correctly. For instance:
 
 - React Router `MemoryRouter`
 - Redux `StoreProvider`
 - Material UI `ThemeProvider`
-- Format.JS `IntlProvicer`
+- Format.JS `IntlProvider`
+- Backstage `ApiProvider`
 - ...
 
-And there are, of course, all the custom `Context.Provider`s.
+And there are, of course, all the custom `Context.Providers`.
 
 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) recommends creating a [custom render](https://testing-library.com/docs/react-testing-library/setup#custom-render) function:
 
