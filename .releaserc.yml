@@ -1,5 +1,5 @@
 branches:
-  - main
+  - v2
 preset: angular
 plugins:
   -
