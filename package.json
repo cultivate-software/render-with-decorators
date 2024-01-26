@@ -59,7 +59,7 @@
     "@babel/cli": "7.23.9",
     "@babel/core": "7.23.7",
     "@babel/node": "7.22.19",
-    "@babel/preset-env": "7.23.8",
+    "@babel/preset-env": "7.23.9",
     "@babel/preset-react": "7.23.3",
     "@semantic-release/git": "10.0.1",
     "@testing-library/jest-dom": "6.3.0",
